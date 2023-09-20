@@ -1,4 +1,3 @@
-# 使用Flask提供数据API:
 import json
 from flask import Flask, jsonify, request
 from flask_cors import CORS  # 导入CORS模块
@@ -7,6 +6,8 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 CORS(app)
+
+# test
 
 area_dict = {
     86: "北京",
