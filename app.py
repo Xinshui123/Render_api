@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 select_data = {}
-with open("data.json") as f:
-    all_data = json.load(f)
+# with open("data.json") as f:
+#     all_data = json.load(f)
 
 all_data = [
     {
